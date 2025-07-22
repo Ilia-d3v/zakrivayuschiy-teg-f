@@ -340,7 +340,7 @@
   .save-button {
     width: 306px;
     height: 84px;
-    margin: 0 34px;
+    margin-inline: 34px;
     flex-direction: column;
   }
 
@@ -359,11 +359,11 @@
   }
 
   .modal__button {
-    padding: 9px 0 10px;
+    padding-block: 9px 10px;
   }
 
   .modal {
-    padding: 0 42px;
-    margin: 0 17px;
+    padding-inline: 42px;
+    margin-inline: 17px;
   }
 }
