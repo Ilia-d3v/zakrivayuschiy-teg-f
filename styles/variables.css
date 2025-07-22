@@ -11,4 +11,13 @@
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
   --container-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
   --bg-color: #fff;
+  --stroke-color: #fff;
+  --color-accent: #000;
+
+  --icon-stroke: #000;
+  --icon-active: #FF0000;
+  --icon-core-fill: none;
+  --icon-body-fill: none;
+  --icon-spark-color: #FF0000;
 }
+
