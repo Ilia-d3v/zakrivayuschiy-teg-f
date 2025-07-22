@@ -148,7 +148,7 @@
 
   /* Раскладка */
   display: grid;
-  margin: 4px 4px 0 0; /* заменяет margin-top + margin-right */
+  margin: 4px 4px 0 0; 
 
   /* Переходы */
   transition: border-color 0.3s ease;
