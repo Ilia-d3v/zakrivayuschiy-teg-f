@@ -31,6 +31,7 @@
   align-items: center;
   justify-self: center;
   width: var(--container-width);
+  margin-inline: auto;
   margin-top: 100px;
   margin-bottom: 100px;
   font-family: var(--font-accent);
@@ -163,12 +164,9 @@
 }
 
 .card__like-button {
-  border: 2px solid currentColor;
   height: 40px;
   width: 130px;
   margin-top: 4px;
-  cursor: pointer;
-  background: none;
 }
 
 .save-button {
@@ -176,13 +174,7 @@
   align-items: center;
   width: 335px;
   height: 55px;
-
-  background-color: var(--bg-color);
-  border: 2px solid currentColor;
   box-sizing: border-box;
-
-  cursor: pointer;
-  outline: none;
 }
 
 .submit-wrapper {
@@ -192,18 +184,7 @@
   margin-bottom: 100px;
 }
 
-.modal-save-label {
-   /* Позиционирование */
-   position: relative;
-   z-index: 1;
- 
-   /* Текст */
-   font-family: var(--accent-font);
-   font-size: 14px;
-   text-align: left;
-   color: var(--bg-color);
-   mix-blend-mode: difference;
-}
+
 
 .save-button svg {
   margin-bottom: 11px;
@@ -216,6 +197,17 @@
 .button {
   position: relative;
   overflow: hidden;
+  
+  /* Базовые стили кнопки */
+  background-color: var(--bg-color);
+  border: 2px solid currentColor;
+  cursor: pointer;
+  outline: none;
+  
+  /* Шрифт */
+  font-family: var(--font-accent);
+  font-size: 14px;
+  font-weight: var(--font-weight-main);
   
   transition: box-shadow 0.3s ease;
 }
@@ -289,17 +281,14 @@
   text-transform: uppercase;
 }
 
+.modal-button__icon {
+  margin-top: 10px;
+}
+
 .modal__button {
   width: 100%;
   padding: 9px 0 7px;
-  background: var(--bg-color);
-  border: 2px solid currentColor;
-  font-family: var(--font-accent);
-  font-size: 14px;
-  font-weight: var(--font-weight-main);
-  text-transform: uppercase;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 .filter-grayscale   { filter: grayscale(0.8); }
@@ -334,7 +323,7 @@
   }
 
   .card__label {
-    right: 0.8rem;
+    right: 0.6rem;
   }
 
   .save-button {
@@ -350,9 +339,7 @@
     margin: 14px 0 10px 10px;
   }
 
-  .modal-save-label {
-    margin-bottom: 10px;
-  }
+
 
   .modal__content {
     margin: 30px 10px;
